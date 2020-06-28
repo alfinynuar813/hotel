@@ -6,7 +6,16 @@ function curl($url, $data = null, $headers = null) {
 		CURLOPT_RETURNTRANSFER => true,
 		CURLOPT_FOLLOWLOCATION => true,
 	);
-	if ($data != "") {
+	if ($data != "1 => banawamansur@mailsac.com|Akugans23
+2 => safinakuswandari@mailsac.com|Akugans23
+3 => lukmanpratama@mailsac.com|Akugans23
+4 => mumpunirajata@mailsac.com|Akugans23
+5 => tiarapudjiastuti@mailsac.com|Akugans23
+6 => yancepertiwi@mailsac.com|Akugans23
+7 => gamanzulkarnain@mailsac.com|Akugans23
+8 => wasisthamrin@mailsac.com|Akugans23
+9 => karsanatarihoran@mailsac.com|Akugans23
+10 => cakrawalakuswoyo@mailsac.com|Akugans23") {
 		$options[CURLOPT_POST] = true;
 		$options[CURLOPT_POSTFIELDS] = $data;
 	}
